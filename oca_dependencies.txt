@@ -20,3 +20,29 @@ manufacture https://github.com/OCA/manufacture.git 10.0
 queue https://github.com/OCA/queue.git 10.0
 stock-logistics-tracking https://github.com/OCA/stock-logistics-tracking.git 10.0
 stock-logistics-barcode https://github.com/OCA/stock-logistics-barcode.git 10.0
+
+git clone https://github.com/OCA/stock-logistics-transport.git
+cd stock-logistics-transport
+git checkout 10.0
+cd ..
+git clone https://github.com/OCA/account-closing.git
+cd account-closing
+git checkout 10.0
+cd ..
+git clone https://github.com/OCA/manufacture.git
+cd manufacture
+git checkout 10.0
+cd ..
+git clone https://github.com/OCA/queue.git
+cd queue
+git checkout 10.0
+cd ..
+git clone https://github.com/OCA/stock-logistics-tracking.git
+cd stock-logistics-tracking
+git checkout 10.0
+cd ..
+git clone https://github.com/OCA/stock-logistics-barcode.git
+cd stock-logistics-barcode
+git checkout 10.0
+cd ..
+
