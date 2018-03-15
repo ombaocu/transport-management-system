@@ -138,6 +138,7 @@ class TmsRoute(models.Model):
                 ',' + str(route.arrival_id.latitude) + ',' +
                 str(route.arrival_id.longitude))
             url = "/tms/static/src/googlemaps/get_route.html?" + points
+            print url
         return {'type': 'ir.actions.act_url',
                 'url': url,
                 'nodestroy': True,
